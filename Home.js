@@ -8,6 +8,8 @@ import {
     View,
 } from 'react-native'
 
+import {Header, Title, Content, Button, Left, Icon, Body} from 'native-base';
+
 export default class ControlPanel extends Component {
 
     static contextTypes = {
@@ -16,10 +18,12 @@ export default class ControlPanel extends Component {
     render(){
         return (
             <ScrollView style={styles.container}>
-                <Text>MAIN</Text>
-                <TouchableOpacity style={styles.button} onPress={this.context.drawer.open}>
-                    <Text>Open Drawer</Text>
-                </TouchableOpacity>
+                <Header style={{"backgroundColor": "darkgray"}}>
+                    <Left>
+                        <Button transparent onPress={this.context.drawer.open}><Icon name = "menu"/></Button>
+                    </Left>
+                    <Body style = {{"flex": 1}}><Title style = {{"color": "white", "fontWeight": '100', 'fontFamily': 'Comic Sans MS'}}>Home</Title></Body>
+                </Header>
 
             </ScrollView>
         )
@@ -29,13 +33,7 @@ export default class ControlPanel extends Component {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: 'white',
-        padding: 20,
+        padding: 0,
         flex: 1,
-    },
-    button: {
-        backgroundColor: 'white',
-        borderWidth: 1,
-        borderColor: 'black',
-        padding: 10,
     }
 })
