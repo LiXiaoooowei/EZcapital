@@ -1,7 +1,9 @@
 import React from "react";
-import { Button, Container, Body, Header, Title, Left, Icon, Right} from "native-base";
 
-export default class HomeScreen extends React.Component {
+import {Container, Body, Header, Left, Right, Icon, Title, Button,} from "native-base";
+
+export default class Profile extends React.Component {
+
     render() {
         return (
             <Container>
@@ -15,7 +17,7 @@ export default class HomeScreen extends React.Component {
                         </Button>
                     </Left>
                     <Body>
-                    <Title>Home</Title>
+                    <Title>Transfer</Title>
                     </Body>
                     <Right />
                 </Header>
