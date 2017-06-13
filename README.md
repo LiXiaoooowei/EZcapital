@@ -1,3 +1,3 @@
 # EZcapital
 
-An all-in-One bank account management app 
+A all-in-One bank account management app 
