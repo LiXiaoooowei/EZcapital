@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Container, Body, Header, Title, Left, Icon, Right, Content} from "native-base";
-import {StyleSheet, View} from 'react-native';
+import { Button, Container, Body, Header, Title, Left, Icon, Right, Content, DeckSwiper, Card, CardItem, Thumbnail, Text} from "native-base";
+import {StyleSheet, View, Image} from 'react-native';
 import Chart from 'react-native-chart';
 
 export default class HomeScreen extends React.Component {
@@ -40,7 +40,71 @@ export default class HomeScreen extends React.Component {
                     <Chart  style = {styles.chart} data = {dataLine} verticalGridStep = {5} type = 'line'
                     showDataPoint={true} color="#2E534D" />
                 </View>
-
+                    <View>
+                        <Card >
+                            <CardItem>
+                                <Left>
+                                    <Thumbnail source={ require('./assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
+                                    <Body>
+                                    <Text>DBS bank</Text>
+                                    </Body>
+                                </Left>
+                            </CardItem>
+                            <CardItem style = {{marginLeft: -40}}>
+                                <Image source = {require('./assets/card_dbs.png')} style = {{resizeMode: 'contain', height: 220, width: 400}}/>
+                            </CardItem>
+                            <CardItem>
+                                <Right>
+                                <Button transparent>
+                                    <Icon name="star-half" />
+                                    <Text>View Details</Text>
+                                </Button>
+                                </Right>
+                            </CardItem>
+                        </Card>
+                        <Card >
+                            <CardItem>
+                                <Left>
+                                    <Thumbnail source={ require('./assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
+                                    <Body>
+                                    <Text>Standard Chartered bank</Text>
+                                    </Body>
+                                </Left>
+                            </CardItem>
+                            <CardItem style = {{marginLeft: -40}}>
+                                <Image source = {require('./assets/card_sc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
+                            </CardItem>
+                            <CardItem>
+                                <Right>
+                                    <Button transparent>
+                                        <Icon name="star-half" />
+                                        <Text>View Details</Text>
+                                    </Button>
+                                </Right>
+                            </CardItem>
+                        </Card>
+                        <Card >
+                            <CardItem>
+                                <Left>
+                                    <Thumbnail source={ require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
+                                    <Body>
+                                    <Text>OCBC bank</Text>
+                                    </Body>
+                                </Left>
+                            </CardItem>
+                            <CardItem style = {{marginLeft: -40}}>
+                                <Image source = {require('./assets/card_ocbc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
+                            </CardItem>
+                            <CardItem>
+                                <Right>
+                                    <Button transparent>
+                                        <Icon name="star-half" />
+                                        <Text>View Details</Text>
+                                    </Button>
+                                </Right>
+                            </CardItem>
+                        </Card>
+                    </View>
                 </Content>
             </Container>
         );
