@@ -3307,6 +3307,10 @@ react-native-keyboard-aware-scroll-view@0.2.9:
   dependencies:
     react-timer-mixin "^0.13.3"
 
+react-native-percentage-circle@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-percentage-circle/-/react-native-percentage-circle-1.0.6.tgz#773fb65043faf269ce6b59c9faa8c11a33e1e8dd"
+
 react-native-slider@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/react-native-slider/-/react-native-slider-0.10.0.tgz#43de21a0442a8f8163f431886f52bcf4ada04fd9"
