@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {View, Image, TouchableHighlight} from 'react-native';
-import {Container, Body, Header, Left, Right, Icon, Title, Button,Content, Text, List, ListItem, Thumbnail, Card, CardItem} from "native-base";
+import {Container, Body, Header, Left, Right, Icon, Title, Button,Content, Text, List, ListItem, Thumbnail, Card, CardItem, Fab} from "native-base";
 import PercentageCircle from 'react-native-percentage-circle';
 import renderIf from './renderif';
 
@@ -8,7 +8,8 @@ export default class Pay extends Component {
     constructor() {
         super();
         this.state = {
-            showDetail: true
+            showDetail: true,
+            active: false
         }
         this.toggleVisibility=this.toggleVisibility.bind(this);
     }
@@ -96,7 +97,164 @@ export default class Pay extends Component {
                     </TouchableHighlight>
                     {renderIf(!this.state.showDetail)(
                         <View>
-
+                            <View style = {{height: 20, flex: 1, flexDirection: 'row', marginLeft: 10, marginRight: 10, marginTop: 10}}>
+                                <Icon name = "bicycle" style = {{color: '#f0ad4e', marginRight: 5, marginTop: -5}}></Icon>
+                                <View style = {{backgroundColor: '#f0ad4e', width: 155, height: 20}}></View>
+                                <View style = {{backgroundColor: '#E6E9E8', width: 170, height: 20}}><Text style = {{fontSize:10}}>S$200 spent</Text></View>
+                                <Text style = {{fontSize:10}}> S$400 set</Text>
+                            </View>
+                            <View style = {{height: 20, flex: 1, flexDirection: 'row', marginLeft: 10, marginRight: 10, marginTop: 10}}>
+                                <Icon name = "pizza" style = {{color: '#5cb85c', marginRight: 5,  marginTop: -5}}></Icon>
+                                <View style = {{backgroundColor: '#5cb85c', width: 105, height: 20}}></View>
+                                <View style = {{backgroundColor: '#E6E9E8', width: 220, height: 20}}><Text style = {{fontSize:10}}>S$150 spent</Text></View>
+                                <Text style = {{fontSize:10}}> S$350 set</Text>
+                            </View>
+                            <View style = {{height: 20, flex: 1, flexDirection: 'row', marginLeft: 10, marginRight: 10, marginTop: 10}}>
+                                <Icon name = "body" style = {{color: '#d9534f', marginRight: 5, marginTop: -5}}></Icon>
+                                <View style = {{backgroundColor: '#d9534f', width: 55, height: 20}}></View>
+                                <View style = {{backgroundColor: '#E6E9E8', width: 270, height: 20}}><Text style = {{fontSize:10}}>S$45 spent</Text></View>
+                                <Text style = {{fontSize:10}}> S$200 set</Text>
+                            </View>
+                            <View>
+                                <Text style = {{fontSize: 30, fontStyle: 'italic',fontWeight: '100', fontFamily: 'source sans pro', textAlign: 'center', marginTop: 30}}>Spending History</Text>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                                <ListItem avatar>
+                                    <Left>
+                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                    </Left>
+                                    <Body>
+                                    <Text>Kumar Pratik</Text>
+                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    </Body>
+                                    <Right>
+                                        <Text note>3:43 pm</Text>
+                                    </Right>
+                                </ListItem>
+                            </View>
+                            <View>
+                                <Fab
+                                    active={this.state.active}
+                                    direction="left"
+                                    containerStyle={{ marginRight: 10, marginBottom: 20  }}
+                                    style={{ backgroundColor: '#5067FF' }}
+                                    position="bottomRight"
+                                    onPress={() => this.setState({ active: !this.state.active })}>
+                                    <Icon name = "clipboard"></Icon>
+                                    <Button style={{ backgroundColor: '#34A34F',marginBottom: 20 }}>
+                                        <Icon name="ios-add" />
+                                    </Button>
+                                    <Button style={{ backgroundColor: '#3B5998' ,marginBottom: 20}}>
+                                        <Icon name="color-filter" />
+                                    </Button>
+                                </Fab>
+                            </View>
                         </View>
                     )}
                 </Content>
