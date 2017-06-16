@@ -44,14 +44,14 @@ export default class HomeScreen extends React.Component {
                         <Card style = {{alignItems: 'center', justifyContent: 'center'}}>
                             <CardItem>
                                 <Left>
-                                    <Thumbnail source={ require('./assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
+                                    <Thumbnail source={ require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
                                     <Body>
                                     <Text>DBS bank</Text>
                                     </Body>
                                 </Left>
                             </CardItem>
                             <CardItem style = {{alignItems: 'center', justifyContent: 'center'}}>
-                                <Image source = {require('./assets/card_dbs.png')} style = {{resizeMode: 'contain', height: 220, width: 400}}/>
+                                <Image source = {require('../../assets/card_dbs.png')} style = {{resizeMode: 'contain', height: 220, width: 400}}/>
                             </CardItem>
                             <CardItem>
                                 <Right>
@@ -65,14 +65,14 @@ export default class HomeScreen extends React.Component {
                         <Card style = {{alignItems: 'center', justifyContent: 'center'}}>
                             <CardItem>
                                 <Left>
-                                    <Thumbnail source={ require('./assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
+                                    <Thumbnail source={ require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                     <Body>
                                     <Text>Standard Chartered bank</Text>
                                     </Body>
                                 </Left>
                             </CardItem>
                             <CardItem style = {{alignItems: 'center', justifyContent: 'center'}}>
-                                <Image source = {require('./assets/card_sc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
+                                <Image source = {require('../../assets/card_sc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
                             </CardItem>
                             <CardItem>
                                 <Right>
@@ -86,14 +86,14 @@ export default class HomeScreen extends React.Component {
                         <Card style = {{alignItems: 'center', justifyContent: 'center'}}>
                             <CardItem>
                                 <Left>
-                                    <Thumbnail source={ require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
+                                    <Thumbnail source={ require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
                                     <Body>
                                     <Text>OCBC bank</Text>
                                     </Body>
                                 </Left>
                             </CardItem>
                             <CardItem style = {{alignItems: 'center', justifyContent: 'center'}}>
-                                <Image source = {require('./assets/card_ocbc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
+                                <Image source = {require('../../assets/card_ocbc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
                             </CardItem>
                             <CardItem>
                                 <Right>

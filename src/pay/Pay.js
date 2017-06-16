@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import {View} from 'react-native';
 import {Container, Body, Header, Left, Right, Icon, Title, Button,Content, Text, List, ListItem, Thumbnail, Card, CardItem} from "native-base";
-import getTheme from './native-base-theme/components/Card.js';
-import material from './native-base-theme/variables/material';
+import getTheme from '../../native-base-theme/components/Card.js';
+import material from '../../native-base-theme/variables/material';
 
 export default class Pay extends Component {
     render() {
@@ -44,49 +44,49 @@ export default class Pay extends Component {
                         <Text style = {{fontSize: 30, fontStyle: 'italic',fontWeight: '100', fontFamily: 'source sans pro', textAlign: 'center', marginTop: 30}}>Recommend to Use...</Text>
                         <List>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
@@ -98,19 +98,19 @@ export default class Pay extends Component {
                         <Text style = {{fontSize: 40,fontStyle: 'italic', fontWeight: '100', fontFamily: 'source sans pro', color: 'red', textAlign: 'center'}}>Credit Reminder</Text>
                         <Card style = {getTheme(material)}>
                             <CardItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body style = {{marginLeft: 5}}><Text>Dear customer, your credit payment with transaction number #012345678 will due in 3 days. If there are any discrepancies, kindly contact us immediately.</Text></Body>
                             </CardItem>
                         </Card>
                         <Card style={getTheme(material)}>
                             <CardItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body style = {{marginLeft: 5}}><Text>Dear customer, your credit payment with transaction number #012345678 will due in 3 days. If there are any discrepancies, kindly contact us immediately.</Text></Body>
                             </CardItem>
                         </Card>
                         <Card style={getTheme(material)}>
                             <CardItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
                                 <Body style = {{marginLeft: 5}}><Text>Dear customer, your credit payment with transaction number #012345678 will due in 3 days. If there are any discrepancies, kindly contact us immediately.</Text></Body>
                             </CardItem>
                         </Card>

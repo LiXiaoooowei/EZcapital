@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import HomeScreen from "./Home.js";
-import Transfer from "./Transfer";
+import HomeScreen from "../home/Home.js";
+import Transfer from "../transfer/Transfer";
 import SideBar from "./SideBar.js";
-import Pay from "./Pay";
-import Budgets from "./Budget";
-import Promotion from "./Promotion";
-import Settings from "./Settings";
-import PersonalFinance from "./PersonalFinance";
+import Pay from "../pay/Pay";
+import Budgets from "../budgets/Budget";
+import Promotion from "../promotion/Promotion";
+import Settings from "../settings/Settings";
+import PersonalFinance from "../personalfinance/PersonalFinance";
 
 import { DrawerNavigator } from "react-navigation";
 

@@ -36,98 +36,98 @@ export default class Promotion extends Component {
                         </Header>
                         <List>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('./assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
                                 <Text>Sankhadeep</Text>
                                 <Text note>Its time to build a difference . .</Text>

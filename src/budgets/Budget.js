@@ -119,7 +119,7 @@ export default class Pay extends Component {
                                 <Text style = {{fontSize: 30, fontStyle: 'italic',fontWeight: '100', fontFamily: 'source sans pro', textAlign: 'center', marginTop: 30}}>Spending History</Text>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -131,7 +131,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -143,7 +143,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -155,7 +155,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -167,7 +167,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -179,7 +179,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -191,7 +191,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -203,7 +203,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -215,7 +215,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
@@ -227,7 +227,7 @@ export default class Pay extends Component {
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('./assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
                                     <Text>Kumar Pratik</Text>
