@@ -1,5 +1,5 @@
 import React from "react";
-import {Image} from "react-native";
+import {Image,View} from "react-native";
 import {Button, Text, Container, List, ListItem, Content, Icon} from "native-base";
 
 const routes = ["Home", "Transfer", "Budgets", "Pay", "Personal Finance", "Promotion", "Settings"];
@@ -9,21 +9,12 @@ export default class SideBar extends React.Component {
         return (
             <Container>
                 <Content>
-                    <Image
-                        source={require('./assets/slide_bg.png')}
-                        style={{
-                            height: 140,
-                            alignSelf: "stretch",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }}
-                    >
-                        <Image
-                            square
-                            style={{ position: "absolute", left: 140, top: 35, width: 80, height: 70}}
-                            source={require('./assets/icn_logo.png')}
-                        />
-                    </Image>
+                    <View style={{height: 140,justifyContent: "center", alignItems: "center", backgroundColor: "#2E4053"}}>
+                        <Image style={{ width: 70, height: 70, borderRadius: 35}} source={require('./assets/icn_pikachu.png')}/>
+                    </View>
+                    <View style={{height: 30,justifyContent: "center", alignItems: "center", backgroundColor: "#2E4053",marginTop: -30}}>
+                        <Text style = {{color: 'white'}}> Xiaowei</Text>
+                    </View>
                     <List
                         dataArray={routes}
                         renderRow={data => {
