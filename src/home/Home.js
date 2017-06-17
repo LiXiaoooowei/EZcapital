@@ -50,7 +50,7 @@ export default class HomeScreen extends React.Component {
                                     </Body>
                                 </Left>
                             </CardItem>
-                            <CardItem style = {{alignItems: 'center', justifyContent: 'center'}}>
+                            <CardItem>
                                 <Image source = {require('../../assets/card_dbs.png')} style = {{resizeMode: 'contain', height: 220, width: 400}}/>
                             </CardItem>
                             <CardItem>
@@ -71,7 +71,7 @@ export default class HomeScreen extends React.Component {
                                     </Body>
                                 </Left>
                             </CardItem>
-                            <CardItem style = {{alignItems: 'center', justifyContent: 'center'}}>
+                            <CardItem>
                                 <Image source = {require('../../assets/card_sc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
                             </CardItem>
                             <CardItem>
@@ -92,7 +92,7 @@ export default class HomeScreen extends React.Component {
                                     </Body>
                                 </Left>
                             </CardItem>
-                            <CardItem style = {{alignItems: 'center', justifyContent: 'center'}}>
+                            <CardItem>
                                 <Image source = {require('../../assets/card_ocbc.png')} style = {{resizeMode: 'contain', height: 220, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
                             </CardItem>
                             <CardItem>

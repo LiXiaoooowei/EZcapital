@@ -1,6 +1,6 @@
 import React from "react";
-
-import {Container, Body, Header, Left, Right, Icon, Title, Button,} from "native-base";
+import {Container, Body, Header, Left, Right, Icon, Title, Button, Content} from "native-base";
+import BankCard from "./ToBankCard";
 
 export default class Profile extends React.Component {
 
@@ -21,6 +21,9 @@ export default class Profile extends React.Component {
                     </Body>
                     <Right />
                 </Header>
+                <Content>
+                    <BankCard />
+                </Content>
             </Container>
         );
     }
