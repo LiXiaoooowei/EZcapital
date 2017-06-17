@@ -55,7 +55,7 @@ export default class LowriskInvestment extends Component {
         var {height, width} = Dimensions.get('window');
         return (
             <Container>
-                <ListItem flexDirection = 'column' justifyContent = "space-between">
+                <ListItem flexDirection = 'row' justifyContent = "space-between">
                     <View flexDirection = "column">
                     <Image source = {require('../../assets/icn_bonds.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
                     <Text note>Bonds</Text>

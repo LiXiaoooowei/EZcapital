@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Dimensions from 'Dimensions';
-import {View} from 'react-native';
-import {Container,Title,Content} from "native-base";
+import {View, Text} from 'react-native';
+import {Container,Content} from "native-base";
 
 export default class TableRow extends Component {
 
@@ -14,17 +14,17 @@ export default class TableRow extends Component {
                             width: width/2,
                             borderColor: 'lightgray',
                             backgroundColor: 'white',
-                            borderWidth: 1
+                            borderWidth: 0.5
                         }}>
-                            <Title style = {{color: 'black', marginTop: 10}}> {this.props.elem1}</Title>
+                            <Text style = {{color: 'black', marginTop: 13, justifyContent: 'center', alignSelf: 'center'}}> {this.props.elem1}</Text>
                         </View>
                         <View style = {{
                             width: width/2,
                             borderColor: 'lightgray',
                             backgroundColor: 'white',
-                            borderWidth: 1
+                            borderWidth: 0.5
                         }}>
-                            <Title style = {{color: 'black', marginTop: 10}}>{this.props.elem2}</Title>
+                            <Text style = {{color: 'black', marginTop: 13,justifyContent: 'center', alignSelf: 'center'}}>{this.props.elem2}</Text>
                         </View>
                     </View>
             </View>

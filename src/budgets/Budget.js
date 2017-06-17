@@ -3,6 +3,7 @@ import {View, Image, TouchableHighlight} from 'react-native';
 import {Container, Body, Header, Left, Right, Icon, Title, Button,Content, Text, List, ListItem, Thumbnail, Card, CardItem, Fab} from "native-base";
 import PercentageCircle from 'react-native-percentage-circle';
 import renderIf from './renderif';
+import Dimensions from 'Dimensions';
 
 export default class Pay extends Component {
     constructor() {
@@ -20,6 +21,7 @@ export default class Pay extends Component {
         });
     }
     render() {
+        var {height, width} = Dimensions.get('window');
         return (
             <Container>
                 <Header style = {{"backgroundColor": "#2E4053"}}>
@@ -42,8 +44,9 @@ export default class Pay extends Component {
                         <Title style = {{color: 'white', justifyContent: 'center', marginTop: 15}}>Febrary, 2017</Title>
                         <Icon name = "ios-arrow-forward-outline" style = {{color: 'white', marginRight: 50, marginTop: 15}}/>
                     </View>
-                    {renderIf(this.state.showDetail)(<View style = {{marginTop: 50, marginBottom: 75}}>
-                        <View style = {{flexDirection: 'row', marginLeft: 50}}>
+                    {renderIf(this.state.showDetail)(
+                        <View style = {{marginTop: 50, marginBottom: 75}}>
+                        <View style = {{flexDirection: 'row', marginLeft: (width-320)/2}}>
                             <PercentageCircle radius={35} percent={50} color={"#666D6A"} innerColor="#5cb85c" borderWidth={5}>
                                 <Icon name = "nutrition" style = {{color: 'white'}}></Icon>
                                 <Text style = {{color: 'white'}}>S$230</Text>
@@ -59,7 +62,7 @@ export default class Pay extends Component {
                                 <Text style = {{color: 'white'}}>S$300</Text>
                             </PercentageCircle>
                         </View>
-                        <View style = {{flexDirection: 'row', marginLeft: 100}}>
+                        <View style = {{flexDirection: 'row', marginLeft: (width-170)/2}}>
                             <PercentageCircle radius={55} percent={70} color={"#666D6A"} innerColor="#f0ad4e" borderWidth={5}>
                                 <Icon name = "cart" style = {{color: 'white'}}></Icon>
                                 <Text style = {{color: 'white'}}>S$69 left</Text>
@@ -68,7 +71,7 @@ export default class Pay extends Component {
                                 <Icon name = "bicycle" style = {{color: 'white'}}></Icon>
                             </PercentageCircle>
                         </View>
-                        <View style = {{flexDirection: 'row', marginLeft: 205, marginTop: -50}}>
+                        <View style = {{flexDirection: 'row', marginLeft: (width-140)*15/16, marginTop: -50}}>
                             <PercentageCircle radius={30} percent={70} color={"#666D6A"} innerColor="#f0ad4e" borderWidth={5}>
                                 <Icon name = "paper-plane" style = {{color: 'white'}}></Icon>
                             </PercentageCircle>
@@ -77,7 +80,7 @@ export default class Pay extends Component {
                                 <Text style = {{color: 'white'}}>S$69 left</Text>
                             </PercentageCircle>
                         </View>
-                        <View style = {{marginLeft: 140, marginTop: -30}}>
+                        <View style = {{marginLeft: (width-110)/2, marginTop: -30}}>
                             <PercentageCircle radius={55} percent={0} color={"#666D6A"} innerColor="#d9534f" borderWidth={5}>
                                 <Icon name = "body" style = {{color: 'white'}}></Icon>
                                 <Text style = {{color: 'white'}}>S$300</Text>
@@ -99,20 +102,20 @@ export default class Pay extends Component {
                         <View>
                             <View style = {{height: 20, flex: 1, flexDirection: 'row', marginLeft: 10, marginRight: 10, marginTop: 10}}>
                                 <Icon name = "bicycle" style = {{color: '#f0ad4e', marginRight: 5, marginTop: -5}}></Icon>
-                                <View style = {{backgroundColor: '#f0ad4e', width: 155, height: 20}}></View>
-                                <View style = {{backgroundColor: '#E6E9E8', width: 170, height: 20}}><Text style = {{fontSize:10}}>S$200 spent</Text></View>
+                                <View style = {{backgroundColor: '#f0ad4e', width: width*3/8, height: 20}}></View>
+                                <View style = {{backgroundColor: '#E6E9E8', width: width*3/8, height: 20}}><Text style = {{fontSize:10}}>S$200 spent</Text></View>
                                 <Text style = {{fontSize:10}}> S$400 set</Text>
                             </View>
                             <View style = {{height: 20, flex: 1, flexDirection: 'row', marginLeft: 10, marginRight: 10, marginTop: 10}}>
                                 <Icon name = "pizza" style = {{color: '#5cb85c', marginRight: 5,  marginTop: -5}}></Icon>
-                                <View style = {{backgroundColor: '#5cb85c', width: 105, height: 20}}></View>
-                                <View style = {{backgroundColor: '#E6E9E8', width: 220, height: 20}}><Text style = {{fontSize:10}}>S$150 spent</Text></View>
+                                <View style = {{backgroundColor: '#5cb85c', width: width*1/4, height: 20}}></View>
+                                <View style = {{backgroundColor: '#E6E9E8', width: width*4/8, height: 20}}><Text style = {{fontSize:10}}>S$150 spent</Text></View>
                                 <Text style = {{fontSize:10}}> S$350 set</Text>
                             </View>
                             <View style = {{height: 20, flex: 1, flexDirection: 'row', marginLeft: 10, marginRight: 10, marginTop: 10}}>
                                 <Icon name = "body" style = {{color: '#d9534f', marginRight: 5, marginTop: -5}}></Icon>
-                                <View style = {{backgroundColor: '#d9534f', width: 55, height: 20}}></View>
-                                <View style = {{backgroundColor: '#E6E9E8', width: 270, height: 20}}><Text style = {{fontSize:10}}>S$45 spent</Text></View>
+                                <View style = {{backgroundColor: '#d9534f', width: width*1/8, height: 20}}></View>
+                                <View style = {{backgroundColor: '#E6E9E8', width: width*5/8, height: 20}}><Text style = {{fontSize:10}}>S$45 spent</Text></View>
                                 <Text style = {{fontSize:10}}> S$200 set</Text>
                             </View>
                             <View>
