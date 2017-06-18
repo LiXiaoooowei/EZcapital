@@ -1,30 +1,18 @@
 import React from "react";
 import { Button, Container, Body, Header, Title, Left, Icon, Right, Content, DeckSwiper, Card, CardItem, Thumbnail, Text} from "native-base";
-import {StyleSheet, View, Image} from 'react-native';
-import Chart from 'react-native-chart';
+import {View, Image} from 'react-native';
+import Dimensions from 'Dimensions';
 
 export default class HomeScreen extends React.Component {
-    _onChange = formData => {
-        /* eslint no-console: 0 */
-        console.log(JSON.stringify(formData, null, " "));
-    };
-
-    _onFocus = field => {
-        /* eslint no-console: 0 */
-        console.log(field);
-    };
 
     render() {
+        var {height, width} = Dimensions.get('window');
         return (
             <Container>
                 <Content>
-                <View style={styles.container}>
-                    <Chart  style = {styles.chart} data = {dataBar} verticalGridStep = {5} type = 'bar'
-                            showDataPoint={true} color="#EE921C" />
-                </View>
-                <View style={styles.container}>
-                    <Chart  style = {styles.chart} data = {dataLine} verticalGridStep = {5} type = 'line'
-                    showDataPoint={true} color="#2E534D" />
+                    <View>
+                    <Image source = {require('../../assets/home_barchart.png')} style = {{width: width, height: width/1.65, resizeMode: 'contain'}}></Image>
+                    <Image source = {require('../../assets/home_linechart.png')} style = {{width: width, height: width/1.50, resizeMode: 'contain'}}></Image>
                 </View>
                     <View>
                         <Card style = {{alignItems: 'center', justifyContent: 'center'}}>
@@ -90,28 +78,33 @@ export default class HomeScreen extends React.Component {
                                 </Right>
                             </CardItem>
                         </Card>
+                        <Card style = {{alignItems: 'center', justifyContent: 'center'}}>
+                            <CardItem>
+                                <Left>
+                                    <Thumbnail source={ require('../../assets/icn_logolongwhite.png')} style = {{resizeMode: 'contain'}} />
+                                    <Body>
+                                    <Text>E-Wallet</Text>
+                                    </Body>
+                                </Left>
+                            </CardItem>
+                            <CardItem>
+                                <Image source = {require('../../assets/icn_logowhite.png')} style = {{resizeMode: 'contain', height: 100, width: 400, justifyContent: 'center', alignItems: 'center'}}/>
+                            </CardItem>
+                            <CardItem>
+                                <Right>
+                                    <Button transparent onPress={() => this.props.navigation.navigate("Ewallet")}>
+                                        <Icon name="star-half" />
+                                        <Text>View Details</Text>
+                                    </Button>
+                                </Right>
+                            </CardItem>
+                        </Card>
                     </View>
                 </Content>
             </Container>
         );
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        height: 200,
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginTop: 10,
-        marginLeft: 5,
-        marginRight: 5,
-        backgroundColor:'white'
-    },
-    chart: {
-       height: 200,
-        width: 350
-    }
-});
 
 HomeScreen.navigationOptions = ({ navigation }) => ({
     header: (
@@ -127,11 +120,13 @@ HomeScreen.navigationOptions = ({ navigation }) => ({
             <Body>
             <Title>Home</Title>
             </Body>
-            <Right />
+            <Right>
+                <Button iconLeft transparent>
+                    <Icon name = "paper-plane"/>
+                    <Text style = {{color: 'white'}}>Quick Pay</Text>
+                </Button>
+            </Right>
         </Header>
     )
 });
 
-
-const dataBar = [["OCBC",4250],["POSB",3000],["Standard Chartered",5290]];
-const dataLine = [["Sun",10], ["Mon", 350], ["Tues", 5], ["Wed", 100], ["Thu", 20], ["Fri", 40], ["Sat", 200]];

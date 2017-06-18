@@ -58,27 +58,27 @@ export default class LowriskInvestment extends Component {
                     {renderIf(this.state.showIndex)(
                         <List>
                             <ListItem>
-                                <Left><Text style = {{color: 'black'}}>Index</Text></Left>
-                                <Body><Text style = {{color: 'green'}}>3123.16</Text></Body>
+                                <Left><Text style = {{color: 'black'}}>Dow Jones mini</Text></Left>
+                                <Body><Text style = {{color: 'green'}}>21333.00</Text></Body>
                                 <View flexDirection = "row" justifyContent="space-between">
-                                    <Text style = {{color: 'green'}}>-9.32  </Text>
-                                    <Text style = {{color: 'green'}}>-0.30%  </Text>
+                                    <Text style = {{color: 'green'}}>+13.00  </Text>
+                                    <Text style = {{color: 'green'}}>+0.06%  </Text>
                                 </View>
                             </ListItem>
                             <ListItem>
-                                <Left><Text style = {{color: 'black'}}>Index</Text></Left>
-                                <Body><Text style = {{color: 'green'}}>3123.16</Text></Body>
+                                <Left><Text style = {{color: 'black'}}>S&P 500 mini</Text></Left>
+                                <Body><Text style = {{color: 'green'}}>2431.00</Text></Body>
                                 <View flexDirection = "row" justifyContent="space-between">
-                                    <Text style = {{color: 'green'}}>-9.32  </Text>
-                                    <Text style = {{color: 'green'}}>-0.30%  </Text>
+                                    <Text style = {{color: 'red'}}>-1.00  </Text>
+                                    <Text style = {{color: 'red'}}>-0.04%  </Text>
                                 </View>
                             </ListItem>
                             <ListItem>
-                                <Left><Text style = {{color: 'black'}}>Index</Text></Left>
-                                <Body><Text style = {{color: 'green'}}>3123.16</Text></Body>
+                                <Left><Text style = {{color: 'black'}}>FTSE100Future</Text></Left>
+                                <Body><Text style = {{color: 'green'}}>7394.50</Text></Body>
                                 <View flexDirection = "row" justifyContent="space-between">
-                                    <Text style = {{color: 'green'}}>-9.32  </Text>
-                                    <Text style = {{color: 'green'}}>-0.30%  </Text>
+                                    <Text style = {{color: 'green'}}>+32.50  </Text>
+                                    <Text style = {{color: 'green'}}>+0.44%  </Text>
                                 </View>
                             </ListItem>
                         </List>
@@ -87,25 +87,25 @@ export default class LowriskInvestment extends Component {
                     <ListItem flexDirection = 'row' justifyContent = "space-between">
                         <View flexDirection = "column">
                             <Button style = {{width: 40, height: 40, borderRadius: 20, justifyContent: 'center', alignSelf: 'center'}}>
-                                <Image source = {require('../../assets/icn_bonds.png')} style = {{width: 25, height: 25, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                                <Image source = {require('../../assets/icn_bondswhite.png')} style = {{width: 25, height: 25, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
                             </Button>
                             <Text note>Bonds</Text>
                         </View>
                         <View flexDirection = "column">
                             <Button style = {{width: 40, height: 40, borderRadius: 20,justifyContent: 'center', alignSelf: 'center'}}>
-                                <Image source = {require('../../assets/icn_trade.png')} style = {{width: 25, height: 25, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                                <Image source = {require('../../assets/icn_tradewhite.png')} style = {{width: 25, height: 25, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
                             </Button>
                             <Text note>Trade</Text>
                         </View>
                         <View flexDirection = "column">
                             <Button style = {{width: 40, height: 40, borderRadius: 20,justifyContent: 'center', alignSelf: 'center'}}>
-                                <Image source = {require('../../assets/icn_insurance.png')} style = {{width: 25, height: 25, resizeMode: 'contain', justifyContent: 'center', alignSelf: 'center'}}></Image>
+                                <Image source = {require('../../assets/icn_insurancewhite.png')} style = {{width: 25, height: 25, resizeMode: 'contain', justifyContent: 'center', alignSelf: 'center'}}></Image>
                             </Button>
                             <Text note>Insurance</Text>
                         </View>
                         <View flexDirection = "column">
                             <Button style = {{width: 40, height: 40, borderRadius: 20,justifyContent: 'center', alignSelf: 'center'}}>
-                                <Image source = {require('../../assets/icn_loans.png')} style = {{width: 25, height: 25, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                                <Image source = {require('../../assets/icn_loanswhite.png')} style = {{width: 25, height: 25, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
                             </Button>
                             <Text note>Loans</Text>
                         </View>
