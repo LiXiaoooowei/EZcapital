@@ -1,7 +1,7 @@
 import React from "react";
 import Dimensions from 'Dimensions';
-import {View} from 'react-native';
-import {Text, Container, Card, CardItem, Body, Content, Header, Left, Right, Icon, Title, Button, List, ListItem} from "native-base";
+import {View, Image} from 'react-native';
+import {Text, Container, Card, CardItem, Body, Content, Header, Left, Right, Icon, Title, Button, List, ListItem, Thumbnail} from "native-base";
 import  MapView from 'react-native-maps';
 
 export default class EditScreenOne extends React.Component {
@@ -138,6 +138,70 @@ export default class EditScreenOne extends React.Component {
                             </Right>
                         </ListItem>
                     </View>
+                    <ListItem itemDivider />
+                    <Header noShadow style = {{backgroundColor: 'white'}}><Left><Text style = {{color: 'black'}}>Linked Accounts</Text></Left></Header>
+                    <ListItem flexDirection = 'row' justifyContent = "space-between" style = {{backgroundColor: 'white', marginLeft: 0}}>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_airbnb.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>airbnb</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_ctrip.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>ctrip</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_didi.png')} style = {{width: 30, height: 30, resizeMode: 'contain', justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>DiDi</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_starbucks.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>starbucks</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_qunar.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>qunar</Text>
+                        </View>
+                    </ListItem>
+                    <ListItem flexDirection = 'row' justifyContent = "space-between" style = {{backgroundColor: 'white', marginLeft: 0}}>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_ebay.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>ebay</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_uber.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>uber</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_taobao.png')} style = {{width: 30, height: 30, resizeMode: 'contain', justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>taobao</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_fave.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>fave</Text>
+                        </View>
+                        <View flexDirection = "column">
+                            <Image source = {require('../../assets/icn_sephora.png')} style = {{width: 30, height: 30, resizeMode: 'contain',justifyContent: 'center', alignSelf: 'center'}}></Image>
+                            <Text note>sephora</Text>
+                        </View>
+                    </ListItem>
+                    <ListItem itemDivider />
+                    <Header noShadow style = {{backgroundColor: 'white'}}><Left><Text style = {{color: 'black'}}>Recent</Text></Left></Header>
+                    <ListItem style = {{backgroundColor: 'white', marginLeft: 0}}>
+                        <Thumbnail square size={80} source={require('../../assets/icn_ebay.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
+                        <Body>
+                        <Text style = {{color: 'black'}}>All</Text>
+                        <Text note>Its time to build a difference . .</Text>
+                        </Body>
+                    </ListItem>
+                    <ListItem style = {{backgroundColor: 'white', marginLeft: 0}}>
+                        <Thumbnail square size={80} source={require('../../assets/icn_sephora.png')} style = {{resizeMode: 'contain',marginRight: 10}} />
+                        <Body>
+                        <Text style = {{color: 'black'}}>Sankhadeep</Text>
+                        <Text note>Its time to build a difference . .</Text>
+                        </Body>
+                    </ListItem>
+                    <ListItem itemDivider />
+                    <Header noShadow style = {{backgroundColor: 'white'}}><Left><Text style = {{color: 'black'}}>ATMs Nearby</Text></Left></Header>
                     <MapView style = {{width: width, height: height/3}} initialRegion={{
                         latitude: this.state.latitude,
                         longitude: this.state.longitude,
