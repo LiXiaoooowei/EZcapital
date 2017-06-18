@@ -17,20 +17,6 @@ export default class HomeScreen extends React.Component {
     render() {
         return (
             <Container>
-                <Header style = {{"backgroundColor": "#2E4053"}}>
-                    <Left>
-                        <Button
-                            transparent
-                            onPress={() => this.props.navigation.navigate("DrawerOpen")}
-                        >
-                            <Icon name="menu" />
-                        </Button>
-                    </Left>
-                    <Body>
-                    <Title>Home</Title>
-                    </Body>
-                    <Right />
-                </Header>
                 <Content>
                 <View style={styles.container}>
                     <Chart  style = {styles.chart} data = {dataBar} verticalGridStep = {5} type = 'bar'
@@ -55,7 +41,7 @@ export default class HomeScreen extends React.Component {
                             </CardItem>
                             <CardItem>
                                 <Right>
-                                <Button transparent>
+                                <Button transparent onPress={() => this.props.navigation.navigate("DBS")}>
                                     <Icon name="star-half" />
                                     <Text>View Details</Text>
                                 </Button>
@@ -76,7 +62,7 @@ export default class HomeScreen extends React.Component {
                             </CardItem>
                             <CardItem>
                                 <Right>
-                                    <Button transparent>
+                                    <Button transparent onPress={() => this.props.navigation.navigate("SC")}t>
                                         <Icon name="star-half" />
                                         <Text>View Details</Text>
                                     </Button>
@@ -97,7 +83,7 @@ export default class HomeScreen extends React.Component {
                             </CardItem>
                             <CardItem>
                                 <Right>
-                                    <Button transparent>
+                                    <Button transparent onPress={() => this.props.navigation.navigate("OCBC")}>
                                         <Icon name="star-half" />
                                         <Text>View Details</Text>
                                     </Button>
@@ -126,6 +112,26 @@ const styles = StyleSheet.create({
         width: 350
     }
 });
+
+HomeScreen.navigationOptions = ({ navigation }) => ({
+    header: (
+        <Header style = {{"backgroundColor": "#2E4053"}}>
+            <Left>
+                <Button
+                    transparent
+                    onPress={() => navigation.navigate("DrawerOpen")}
+                >
+                    <Icon name="menu" />
+                </Button>
+            </Left>
+            <Body>
+            <Title>Home</Title>
+            </Body>
+            <Right />
+        </Header>
+    )
+});
+
 
 const dataBar = [["OCBC",4250],["POSB",3000],["Standard Chartered",5290]];
 const dataLine = [["Sun",10], ["Mon", 350], ["Tues", 5], ["Wed", 100], ["Thu", 20], ["Fri", 40], ["Sat", 200]];

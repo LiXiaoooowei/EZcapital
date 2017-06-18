@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HomeScreen from "../home/Home.js";
+import HomeScreen from "../home/HomeIndex.js";
 import Transfer from "../transfer/Transfer";
 import SideBar from "./SideBar.js";
 import Pay from "../pay/Pay";
