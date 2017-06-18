@@ -1,6 +1,8 @@
 import React from "react";
-
-import {Text, Container, Card, CardItem, Body, Content, Header, Left, Right, Icon, Title, Button, H1} from "native-base";
+import Dimensions from 'Dimensions';
+import {View} from 'react-native';
+import {Text, Container, Card, CardItem, Body, Content, Header, Left, Right, Icon, Title, Button, List, ListItem} from "native-base";
+import  MapView from 'react-native-maps';
 
 export default class EditScreenOne extends React.Component {
     static navigationOptions = ({ navigation }) => ({
