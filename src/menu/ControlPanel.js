@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HomeScreen from "../home/HomeIndex.js";
-import Transfer from "../transfer/Transfer";
+import Transfer from "../transfer/TransferIndex";
 import SideBar from "./SideBar.js";
 import Pay from "../pay/Pay";
 import Budgets from "../budgets/Budget";
