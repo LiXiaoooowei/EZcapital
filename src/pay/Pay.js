@@ -41,7 +41,7 @@ export default class Pay extends Component {
                         </Button>
                     </View>
                     <View>
-                        <Text style = {{fontSize: 30, fontStyle: 'italic',fontWeight: '100', fontFamily: 'source sans pro', textAlign: 'center', marginTop: 30}}>Recommend to Use...</Text>
+                        <Text style = {{fontSize: 30, fontStyle: 'italic',fontWeight: '100', textAlign: 'center', marginTop: 30}}>Recommend to Use...</Text>
                         <List>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
@@ -95,7 +95,7 @@ export default class Pay extends Component {
                         </List>
                     </View>
                     <View>
-                        <Text style = {{fontSize: 40,fontStyle: 'italic', fontWeight: '100', fontFamily: 'source sans pro', color: 'red', textAlign: 'center'}}>Credit Reminder</Text>
+                        <Text style = {{fontSize: 30,fontStyle: 'italic', fontWeight: '100', color: 'red', textAlign: 'center'}}>Credit Reminder</Text>
                         <Card style = {getTheme(material)}>
                             <CardItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {View, Image, TouchableHighlight} from 'react-native';
-import {Container, Body, Header, Left, Right, Icon, Title, Button,Content, Text, List, ListItem, Thumbnail, Card, CardItem, Fab} from "native-base";
+import {Container, Body, Header,Footer, Left, Right, Icon, Title, Button,Content, Text, List, ListItem, Thumbnail, Card, CardItem, Fab} from "native-base";
 import PercentageCircle from 'react-native-percentage-circle';
 import renderIf from './renderif';
 import Dimensions from 'Dimensions';
@@ -45,7 +45,7 @@ export default class Pay extends Component {
                         <Icon name = "ios-arrow-forward-outline" style = {{color: 'white', marginRight: 50, marginTop: 15}}/>
                     </View>
                     {renderIf(this.state.showDetail)(
-                        <View style = {{marginTop: 50, marginBottom: 75}}>
+                        <View style = {{marginTop: 50}}>
                         <View style = {{flexDirection: 'row', marginLeft: (width-320)/2}}>
                             <PercentageCircle radius={35} percent={50} color={"#666D6A"} innerColor="#5cb85c" borderWidth={5}>
                                 <Icon name = "nutrition" style = {{color: 'white'}}></Icon>
@@ -87,17 +87,24 @@ export default class Pay extends Component {
                             </PercentageCircle>
                         </View>
                     </View>)}
-                    <TouchableHighlight onPress={this.toggleVisibility}>
+                    {renderIf(!this.state.showDetail)(<TouchableHighlight onPress={this.toggleVisibility}>
                         <Header style = {{backgroundColor: 'lightgray', height: 60}}>
                             <Right>
                                 <Title style = {{color: 'white'}}>DETAILS</Title>
-                                {renderIf(this.state.showDetail)(
-                                    <Icon name = "ios-arrow-up" style = {{color: 'white', marginLeft: 10}}/>)}
-                                {renderIf(!this.state.showDetail)(
-                                    <Icon name = "ios-arrow-down" style = {{color: 'white', marginLeft: 10}}/>)}
+                                    <Icon name = "ios-arrow-down" style = {{color: 'white', marginLeft: 10}}/>
                             </Right>
                         </Header>
-                    </TouchableHighlight>
+                    </TouchableHighlight>)}
+                    {renderIf(this.state.showDetail)(
+                        <TouchableHighlight onPress={this.toggleVisibility}>
+                            <Header style = {{backgroundColor: 'lightgray', height: 60, marginTop: height-60-50-140-110-80-110+80-60-80}}>
+                                <Right>
+                                    <Title style = {{color: 'white'}}>DETAILS</Title>
+                                    <Icon name = "ios-arrow-up" style = {{color: 'white', marginLeft: 10}}/>
+                                </Right>
+                            </Header>
+                        </TouchableHighlight>
+                    )}
                     {renderIf(!this.state.showDetail)(
                         <View>
                             <View style = {{height: 20, flex: 1, flexDirection: 'row', marginLeft: 10, marginRight: 10, marginTop: 10}}>
@@ -119,7 +126,7 @@ export default class Pay extends Component {
                                 <Text style = {{fontSize:10}}> S$200 set</Text>
                             </View>
                             <View>
-                                <Text style = {{fontSize: 30, fontStyle: 'italic',fontWeight: '100', fontFamily: 'source sans pro', textAlign: 'center', marginTop: 30}}>Spending History</Text>
+                                <Text style = {{fontSize: 30, fontStyle: 'italic',fontWeight: '100',textAlign: 'center', marginTop: 30}}>Spending History</Text>
                                 <ListItem avatar>
                                     <Left>
                                         <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
