@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {View, Image, TouchableHighlight} from 'react-native';
+import {View, Image, TouchableHighlight, Platform} from 'react-native';
 import {Container, Body, Header,Footer, Left, Right, Icon, Title, Button,Content, Text, List, ListItem, Thumbnail, Card, CardItem, Fab} from "native-base";
 import PercentageCircle from 'react-native-percentage-circle';
 import renderIf from './renderif';
@@ -90,17 +90,27 @@ export default class Pay extends Component {
                     {renderIf(!this.state.showDetail)(<TouchableHighlight onPress={this.toggleVisibility}>
                         <Header style = {{backgroundColor: 'lightgray', height: 60}}>
                             <Right>
-                                <Title style = {{color: 'white'}}>DETAILS</Title>
-                                    <Icon name = "ios-arrow-down" style = {{color: 'white', marginLeft: 10}}/>
+                                <Title style = {{color: 'white', marginBottom: 15}}>DETAILS</Title>
+                                <Icon name = "ios-arrow-down" style = {{color: 'white', marginLeft: 10, marginBottom: 15}}/>
                             </Right>
                         </Header>
                     </TouchableHighlight>)}
-                    {renderIf(this.state.showDetail)(
+                    {renderIf(this.state.showDetail && Platform.OS === 'android')(
                         <TouchableHighlight onPress={this.toggleVisibility}>
                             <Header style = {{backgroundColor: 'lightgray', height: 60, marginTop: height-60-50-140-110-80-110+80-60-80}}>
                                 <Right>
-                                    <Title style = {{color: 'white'}}>DETAILS</Title>
-                                    <Icon name = "ios-arrow-up" style = {{color: 'white', marginLeft: 10}}/>
+                                    <Title style = {{color: 'white', marginBottom: 15}}>DETAILS</Title>
+                                    <Icon name = "ios-arrow-up" style = {{color: 'white', marginLeft: 10, marginBottom: 15}}/>
+                                </Right>
+                            </Header>
+                        </TouchableHighlight>
+                    )}
+                    {renderIf(this.state.showDetail && Platform.OS === 'ios')(
+                        <TouchableHighlight onPress={this.toggleVisibility}>
+                            <Header style = {{backgroundColor: 'lightgray', height: 60, marginTop: height-60-50-140-110-80-110+80-60-60}}>
+                                <Right>
+                                    <Title style = {{color: 'white', marginBottom: 15}}>DETAILS</Title>
+                                    <Icon name = "ios-arrow-up" style = {{color: 'white', marginLeft: 10, marginBottom: 15}}/>
                                 </Right>
                             </Header>
                         </TouchableHighlight>
