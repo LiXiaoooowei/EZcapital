@@ -97,7 +97,7 @@ export default class Pay extends Component {
                     </TouchableHighlight>)}
                     {renderIf(this.state.showDetail && Platform.OS === 'android')(
                         <TouchableHighlight onPress={this.toggleVisibility}>
-                            <Header style = {{backgroundColor: 'lightgray', height: 60, marginTop: height-60-50-140-110-80-110+80-60-80}}>
+                            <Header style = {{backgroundColor: 'lightgray', height: 60, marginTop: height-60-50-140-110-80-110+80-60-75}}>
                                 <Right>
                                     <Title style = {{color: 'white', marginBottom: 15}}>DETAILS</Title>
                                     <Icon name = "ios-arrow-up" style = {{color: 'white', marginLeft: 10, marginBottom: 15}}/>
