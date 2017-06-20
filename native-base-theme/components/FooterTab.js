@@ -19,7 +19,7 @@ export default (variables = variable) => {
         "NativeBase.IconNB": {
           color: variables.tabBarActiveTextColor
         },
-        backgroundColor: variables.tabActiveBgColor
+        backgroundColor: '#fff'
       },
       flexDirection: null,
       backgroundColor: "transparent",
@@ -65,7 +65,7 @@ export default (variables = variable) => {
       }
     },
     backgroundColor: Platform.OS === "android"
-      ? variables.tabActiveBgColor
+      ? '#fff'
       : undefined,
     flexDirection: "row",
     justifyContent: "space-between",

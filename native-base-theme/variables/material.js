@@ -40,7 +40,7 @@ export default {
   checkboxTickColor: "#fff",
 
   // Segment
-  segmentBackgroundColor: "#3F51B5",
+  segmentBackgroundColor: "#fff",
   segmentActiveBackgroundColor: "#fff",
   segmentTextColor: "#fff",
   segmentActiveTextColor: "#3F51B5",
@@ -131,27 +131,27 @@ export default {
 
   // Footer
   footerHeight: 55,
-  footerDefaultBg: "#3F51B5",
+  footerDefaultBg: "#fff",
 
   // FooterTab
   tabBarTextColor: "#b3c7f9",
   tabBarTextSize: platform === "ios" ? 14 : 11,
   activeTab: "#fff",
-  sTabBarActiveTextColor: "#007aff",
-  tabBarActiveTextColor: "#fff",
-  tabActiveBgColor: undefined,
+  sTabBarActiveTextColor: "#2E4053",
+  tabBarActiveTextColor: "#2E4053",
+  tabActiveBgColor: '#fff',
 
   // Tab
-  tabDefaultBg: "#3F51B5",
-  topTabBarTextColor: "#b3c7f9",
-  topTabBarActiveTextColor: "#fff",
-  topTabActiveBgColor: undefined,
-  topTabBarBorderColor: "#fff",
-  topTabBarActiveBorderColor: "#fff",
+  tabDefaultBg: "#fff",
+  topTabBarTextColor: null,
+  topTabBarActiveTextColor: null,
+  topTabActiveBgColor: '#fff',
+  topTabBarBorderColor: null,
+  topTabBarActiveBorderColor: null,
 
   // Header
   toolbarBtnColor: "#fff",
-  toolbarDefaultBg: "#3F51B5",
+  toolbarDefaultBg: "#fff",
   toolbarHeight: platform === "ios" ? 76 : 56,
   toolbarIconSize: platform === "ios" ? 20 : 22,
   toolbarSearchIconSize: platform === "ios" ? 20 : 23,
@@ -159,7 +159,7 @@ export default {
   searchBarHeight: platform === "ios" ? 30 : 40,
   toolbarInverseBg: "#222",
   toolbarTextColor: "#fff",
-  toolbarDefaultBorder: "#3F51B5",
+  toolbarDefaultBorder: "#fff",
   iosStatusbar: "light-content",
   get statusBarColor() {
     return color(this.toolbarDefaultBg).darken(0.2).hex();

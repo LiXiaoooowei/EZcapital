@@ -79,7 +79,7 @@ export default (variables = variable) => {
       alignSelf: "center",
       alignItems: "flex-end"
     },
-    backgroundColor: variables.footerDefaultBg,
+    backgroundColor: '#fff',
     flexDirection: "row",
     justifyContent: "center",
     borderTopWidth: platform === "ios" && platformStyle !== "material"

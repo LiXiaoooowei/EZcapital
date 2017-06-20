@@ -1,38 +1,39 @@
 import React from "react";
-import Dimensions from 'Dimensions';
 import {View, Image} from 'react-native';
-import {Text, Container, Card, CardItem, Body, Content, Header, Left, Right, Icon, Title, Button, List, ListItem, Thumbnail} from "native-base";
+import {Text, Container, Card,Content, CardItem, Body, Header, Footer,FooterTab, Left, Right, Icon, Title, Button, List, ListItem, Thumbnail} from "native-base";
+import {TabNavigator} from 'react-navigation';
+import QuickPayScan from './QuickPayScan';
+import QuickPayCode from './QuickPayCode';
 
 
-export default class EditScreenOne extends React.Component {
-    static navigationOptions = ({ navigation }) => ({
-        header: (
-            <Header style = {{"backgroundColor": "#2E4053"}}>
-                <Left>
-                    <Button transparent onPress={() => navigation.goBack()}>
-                        <Icon name="arrow-back" />
-                    </Button>
-                </Left>
-                <Body>
-                <Title>Quick Pay</Title>
-                </Body>
-                <Right />
-            </Header>
-        )
-    });
-    constructor() {
-        super();
-
+export default (MainScreenNavigator = TabNavigator(
+    {
+        QuickPayCode: { screen: QuickPayCode },
+        QuickPayScan: { screen: QuickPayScan }
+    },
+    {
+        tabBarPosition: "bottom",
+        tabBarComponent: props => {
+            return (
+                <Footer style = {{backgroundColor: '#2E4053'}}>
+                    <FooterTab style = {{backgroundColor: '#2E4053'}}>
+                        <Button
+                            vertical
+                            active={props.navigationState.index === 0}
+                            onPress={() => props.navigation.navigate("QuickPayCode")} transparent>
+                            <Icon name="bowtie" style = {{color: 'white'}}/>
+                            <Text style = {{color: 'white'}}>Payment Code</Text>
+                        </Button>
+                        <Button
+                            vertical
+                            active={props.navigationState.index === 1}
+                            onPress={() => props.navigation.navigate("QuickPayScan")} transparent>
+                            <Icon name="briefcase" style = {{color: 'white'}}/>
+                            <Text style = {{color: 'white'}}>Scan Pay</Text>
+                        </Button>
+                    </FooterTab>
+                </Footer>
+            );
+        }
     }
-
-    render() {
-        var {height, width} = Dimensions.get('window');
-        return (
-            <Container>
-                <Content>
-
-                </Content>
-            </Container>
-        );
-    }
-}
+));
