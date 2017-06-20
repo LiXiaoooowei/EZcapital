@@ -3,6 +3,7 @@ import Dimensions from 'Dimensions';
 import {View,Image} from 'react-native';
 import {Text, Container, Card, CardItem, Body, Content, Header, Left, Right, Icon, Title, Button, List, ListItem, Thumbnail} from "native-base";
 import {NavigationActions} from 'react-navigation';
+import QRCodeScreen from './QRCodeScreen';
 
 export default class EditScreenOne extends React.Component {
     static navigationOptions = ({ navigation }) => ({
@@ -25,7 +26,7 @@ export default class EditScreenOne extends React.Component {
         return (
             <Container>
                 <Content>
-                    <Text>Quick pay scan</Text>
+                    <QRCodeScreen />
                 </Content>
             </Container>
         );
