@@ -8,35 +8,21 @@ export default class Pay extends Component {
     render() {
         return (
             <Container>
-                <Header style = {{"backgroundColor": "#2E4053"}}>
-                    <Left>
-                        <Button
-                            transparent
-                            onPress={() => this.props.navigation.navigate("DrawerOpen")}
-                        >
-                            <Icon name="menu" />
-                        </Button>
-                    </Left>
-                    <Body>
-                    <Title>Pay</Title>
-                    </Body>
-                    <Right />
-                </Header>
                 <Content>
                     <View style = {{flex: 1, flexDirection: 'row', marginTop: 10,justifyContent: 'space-between', marginLeft: 5, marginRight: 5}}>
-                        <Button primary style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}}>
+                        <Button primary style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}} onPress={()=>this.props.navigation.navigate("QuickPay")}>
                             <Icon name = "pizza" size={ICON_SIZE}/>
                         </Button>
-                        <Button success style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}}>
+                        <Button success style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}} onPress={()=>this.props.navigation.navigate("QuickPay")}>
                             <Icon name = "bicycle" size={ICON_SIZE}/>
                         </Button>
-                        <Button info style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}}>
+                        <Button info style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}} onPress={()=>this.props.navigation.navigate("QuickPay")}>
                             <Icon name = "medkit" size={ICON_SIZE}/>
                         </Button>
-                        <Button warning style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}}>
+                        <Button warning style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}} onPress={()=>this.props.navigation.navigate("QuickPay")}>
                             <Icon name = "paper-plane" size={ICON_SIZE} />
                         </Button>
-                        <Button danger style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}}>
+                        <Button danger style = {{"width": BUTTON_WIDTH, "height": BUTTON_WIDTH, "borderRadius": BUTTON_RADIUS}} onPress={()=>this.props.navigation.navigate("QuickPay")}>
                             <Icon name = "person" size={ICON_SIZE}/>
                         </Button>
                     </View>
@@ -120,6 +106,27 @@ export default class Pay extends Component {
         );
     }
 }
+
+Pay.navigationOptions = ({ navigation }) => ({
+    header: (
+        <Header style = {{"backgroundColor": "#2E4053"}}>
+            <Left>
+                <Button
+                    transparent
+                    onPress={() => navigation.navigate("DrawerOpen")}
+                >
+                    <Icon name="menu" />
+                </Button>
+            </Left>
+            <Body>
+            <Title>Pay</Title>
+            </Body>
+            <Right />
+        </Header>
+    )
+});
+
+
 const BUTTON_WIDTH = 60;
 const BUTTON_RADIUS = BUTTON_WIDTH/2.0;
 const ICON_SIZE = 50;

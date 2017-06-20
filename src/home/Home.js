@@ -50,7 +50,7 @@ export default class HomeScreen extends React.Component {
                             </CardItem>
                             <CardItem>
                                 <Right>
-                                    <Button transparent onPress={() => this.props.navigation.navigate("SC")}t>
+                                    <Button transparent onPress={() => this.props.navigation.navigate("SC")}>
                                         <Icon name="star-half" />
                                         <Text>View Details</Text>
                                     </Button>
@@ -121,7 +121,7 @@ HomeScreen.navigationOptions = ({ navigation }) => ({
             <Title>Home</Title>
             </Body>
             <Right>
-                <Button iconLeft transparent>
+                <Button iconLeft transparent onPress={() => navigation.navigate("QuickPay")}>
                     <Icon name = "paper-plane"/>
                     <Text style = {{color: 'white'}}>Quick Pay</Text>
                 </Button>

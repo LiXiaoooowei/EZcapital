@@ -4,6 +4,7 @@ import DBS from './DBSpage';
 import SC from './SCpage';
 import OCBC from './OCBCpage';
 import Ewallet from './EwalletPage';
+import QuickPay from '../pay/QuickPay';
 
 import {StackNavigator} from 'react-navigation';
 
@@ -12,5 +13,6 @@ export default (DrawNav = StackNavigator({
     DBS: {screen: DBS},
     SC: {screen: SC},
     OCBC: {screen: OCBC},
-    Ewallet: {screen: Ewallet}
+    Ewallet: {screen: Ewallet},
+    QuickPay: {screen: QuickPay}
 }));

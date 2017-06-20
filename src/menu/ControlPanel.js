@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HomeScreen from "../home/HomeIndex.js";
 import Transfer from "../transfer/TransferIndex";
 import SideBar from "./SideBar.js";
-import Pay from "../pay/Pay";
+import Pay from "../pay/PayIndex";
 import Budgets from "../budgets/Budget";
 import Promotion from "../promotion/Promotion";
 import Settings from "../settings/Settings";
