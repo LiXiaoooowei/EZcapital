@@ -189,15 +189,15 @@ export default class EditScreenOne extends React.Component {
                     <ListItem style = {{backgroundColor: 'white', marginLeft: 0}}>
                         <Thumbnail square size={80} source={require('../../assets/icn_ebay.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
                         <Body>
-                        <Text style = {{color: 'black'}}>All</Text>
-                        <Text note>Its time to build a difference . .</Text>
+                        <Text style = {{color: 'black'}}>-20.00</Text>
+                        <Text note>Earphones</Text>
                         </Body>
                     </ListItem>
                     <ListItem style = {{backgroundColor: 'white', marginLeft: 0}}>
                         <Thumbnail square size={80} source={require('../../assets/icn_sephora.png')} style = {{resizeMode: 'contain',marginRight: 10}} />
                         <Body>
-                        <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                        <Text note>Its time to build a difference . .</Text>
+                        <Text style = {{color: 'black'}}>-19.00</Text>
+                        <Text note>Lipstick</Text>
                         </Body>
                     </ListItem>
                     <ListItem itemDivider />
