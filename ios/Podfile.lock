@@ -1,6 +1,8 @@
 PODS:
   - React (0.45.1):
     - React/Core (= 0.45.1)
+  - react-native-camera (0.9.4):
+    - React
   - react-native-maps (0.15.2):
     - React
   - React/BatchedBridge (0.45.1):
@@ -35,6 +37,7 @@ PODS:
   - Yoga (0.45.1.React)
 
 DEPENDENCIES:
+  - react-native-camera (from `../node_modules/react-native-camera`)
   - react-native-maps (from `../node_modules/react-native-maps`)
   - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
@@ -53,6 +56,8 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   React:
     :path: "../node_modules/react-native"
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
   react-native-maps:
     :path: "../node_modules/react-native-maps"
   Yoga:
@@ -60,9 +65,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   React: 0c9191a8b0c843d7004f950ac6b5f6cba9d125c7
+  react-native-camera: 267127fbb4a2960d3f97b5ca8a33339620e3f6b3
   react-native-maps: fe2e4680b4d3fcfd84d636ccedd470fe358d55e1
   Yoga: 89c8738d42a0b46a113acb4e574336d61cba2985
 
-PODFILE CHECKSUM: 2ea72da2b9225de62e7c16f01a18cf0089d0a744
+PODFILE CHECKSUM: 1976cd1eeb412c975fe772aaacc0ef521c3eaab7
 
 COCOAPODS: 1.2.1

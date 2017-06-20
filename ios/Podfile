@@ -24,6 +24,7 @@ target 'bizit' do
 
 
   pod 'react-native-maps', path: '../node_modules/react-native-maps'
+  pod 'react-native-camera', path: '../node_modules/react-native-camera'
 
 
 end
