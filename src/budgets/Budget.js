@@ -41,7 +41,7 @@ export default class Pay extends Component {
                 <Content>
                     <View style = {{backgroundColor: 'lightgray', height: 60, alignSelf: 'stretch', flexDirection: 'row', justifyContent: 'space-between'}}>
                         <Icon name = "ios-arrow-back-outline" style = {{color: 'white', marginLeft: 50, marginTop: 15}}/>
-                        <Title style = {{color: 'white', justifyContent: 'center', marginTop: 15}}>Febrary, 2017</Title>
+                        <Title style = {{color: 'white', justifyContent: 'center', marginTop: 15}}>June, 2017</Title>
                         <Icon name = "ios-arrow-forward-outline" style = {{color: 'white', marginRight: 50, marginTop: 15}}/>
                     </View>
                     {renderIf(this.state.showDetail)(
@@ -142,11 +142,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-5.00</Text>
+                                    <Text note>McDouble Meal</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>21 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -154,11 +154,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-2.30</Text>
+                                    <Text note>Chicken Rice</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>21 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -166,11 +166,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-10.0</Text>
+                                    <Text note>Topup Prepaid Card</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>20 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -178,11 +178,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-1.50</Text>
+                                    <Text note>MRT</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>20 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -190,11 +190,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-3.80</Text>
+                                    <Text note>Chicken rice</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>20 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -202,11 +202,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-1.00</Text>
+                                    <Text note>Pencil</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>20 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -214,11 +214,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-1.50</Text>
+                                    <Text note>MRT</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>19 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -226,11 +226,11 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_orangedot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-11.50</Text>
+                                    <Text note>Taxi</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>19 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
@@ -238,23 +238,23 @@ export default class Pay extends Component {
                                         <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-3.00</Text>
+                                    <Text note>Notebook</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>18 June</Text>
                                     </Right>
                                 </ListItem>
                                 <ListItem avatar>
                                     <Left>
-                                        <Thumbnail source={require('../../assets/icn_reddot.png')} style = {{width: 20, height: 20}}/>
+                                        <Thumbnail source={require('../../assets/icn_greendot.png')} style = {{width: 20, height: 20}}/>
                                     </Left>
                                     <Body>
-                                    <Text>Kumar Pratik</Text>
-                                    <Text note>Doing what you like will always keep you happy . .</Text>
+                                    <Text>-2.30</Text>
+                                    <Text note>Chicken Rice</Text>
                                     </Body>
                                     <Right>
-                                        <Text note>3:43 pm</Text>
+                                        <Text note>18 June</Text>
                                     </Right>
                                 </ListItem>
                             </View>

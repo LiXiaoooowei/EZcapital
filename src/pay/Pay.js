@@ -32,50 +32,50 @@ export default class Pay extends Component {
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>General</Text>
+                                <Text note>Up to 1% rebate on all spending</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Lotte World</Text>
+                                <Text note>20% off Lotte World Free Pass tickets</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Grab Rides</Text>
+                                <Text note>20% cash back on all Grab rides from 7 April - 6 July 2017</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Golden Village</Text>
+                                <Text note>Exclusive discounts on movie tickets and popcorn combo sets</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Sign-Up Promotion</Text>
+                                <Text note>Up to $150 in Uber credits</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Dining & Entertainment</Text>
+                                <Text note>Up to 8% rebate on Dining & Entertainment</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>General</Text>
+                                <Text note>Enjoy up to 3.5% Cash Back on all purchases</Text>
                                 </Body>
                             </ListItem>
                         </List>
