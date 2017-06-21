@@ -108,101 +108,52 @@ export default class LowriskInvestment extends Component {
                     {renderIf(this.state.btn1active)(
                             <List>
                                 <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
+                                    <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
                                     <Body>
-                                    <Text style = {{color: 'black'}}>All</Text>
-                                    <Text note>Its time to build a difference . .</Text>
+                                    <Text style = {{color: 'black'}}>5.30%</Text>
+                                    <Text note>275 Days</Text>
                                     </Body>
                                 </ListItem>
                                 <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain',marginRight: 10}} />
+                                    <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain',marginRight: 10}} />
                                     <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
+                                    <Text style = {{color: 'black'}}>5.10%</Text>
+                                    <Text note>365 Days</Text>
                                     </Body>
                                 </ListItem>
                                 <ListItem>
                                     <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                     <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
+                                    <Text style = {{color: 'black'}}>5.01%</Text>
+                                    <Text note>66 Days</Text>
                                     </Body>
                                 </ListItem>
                                 <ListItem>
                                     <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                     <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
-                                    </Body>
-                                </ListItem>
-                                <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                    <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
-                                    </Body>
-                                </ListItem>
-                                <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                    <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
-                                    </Body>
-                                </ListItem>
-                                <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                    <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
-                                    </Body>
-                                </ListItem>
-                                <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
-                                    <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
+                                    <Text style = {{color: 'black'}}>5.00%</Text>
+                                    <Text note>217 Days</Text>
                                     </Body>
                                 </ListItem>
                                 <ListItem>
                                     <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                     <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
-                                    </Body>
-                                </ListItem>
-                                <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                    <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
-                                    </Body>
-                                </ListItem>
-                                <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                    <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
-                                    </Body>
-                                </ListItem>
-                                <ListItem>
-                                    <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                    <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
+                                    <Text style = {{color: 'black'}}>4.80%</Text>
+                                    <Text note>77 Days</Text>
                                     </Body>
                                 </ListItem>
                                 <ListItem>
                                     <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                     <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
+                                    <Text style = {{color: 'black'}}>4.80%</Text>
+                                    <Text note>78 Days</Text>
                                     </Body>
                                 </ListItem>
                                 <ListItem>
                                     <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                     <Body>
-                                    <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                    <Text note>Its time to build a difference . .</Text>
+                                    <Text style = {{color: 'black'}}>4.80%</Text>
+                                    <Text note>730 Days</Text>
                                     </Body>
                                 </ListItem>
                             </List>
@@ -210,101 +161,45 @@ export default class LowriskInvestment extends Component {
                     {renderIf(this.state.btn2active)(
                         <List>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
                                 <Body>
-                                <Text style = {{color: 'black'}}>1 months</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.7330%</Text>
+                                <Text note>1 Month</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.69%</Text>
+                                <Text note>29 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.4930%</Text>
+                                <Text note>1 Month</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.2950%</Text>
+                                <Text note>Flexible</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.1090%</Text>
+                                <Text note>Flexible</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.00%</Text>
+                                <Text note>29 Days</Text>
                                 </Body>
                             </ListItem>
                         </List>
@@ -312,101 +207,38 @@ export default class LowriskInvestment extends Component {
                     {renderIf(this.state.btn3active)(
                         <List>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
                                 <Body>
-                                <Text style = {{color: 'black'}}>1-6 months</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>5.0160%</Text>
+                                <Text note>66 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.80%</Text>
+                                <Text note>77 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.80%</Text>
+                                <Text note>78 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.65%</Text>
+                                <Text note>63 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.57%</Text>
+                                <Text note>45 Days</Text>
                                 </Body>
                             </ListItem>
                         </List>
@@ -414,101 +246,31 @@ export default class LowriskInvestment extends Component {
                     {renderIf(this.state.btn4active)(
                         <List>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
                                 <Body>
-                                <Text style = {{color: 'black'}}>more than 6 months</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>5.30%</Text>
+                                <Text note>275 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>5.10%</Text>
+                                <Text note>365 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>5%</Text>
+                                <Text note>217 Days</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                                 <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
-                                <Body>
-                                <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text style = {{color: 'black'}}>4.80%</Text>
+                                <Text note>730 Days</Text>
                                 </Body>
                             </ListItem>
                         </List>

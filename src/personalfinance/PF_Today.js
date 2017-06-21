@@ -17,7 +17,7 @@ export default class PF_Today extends Component {
                                     shadowOpacity: null,
                                     shadowRadius: null,
                                     elevation: null}}>
-                                    <Left><Text style = {{color: 'black'}}>Current</Text></Left>
+                                    <Left><Text style = {{color: 'black'}}>Recommended</Text></Left>
 
                                     <Right>
                                         <Text style = {{color: '#2874F0'}}>More</Text>
@@ -25,31 +25,31 @@ export default class PF_Today extends Component {
                                 </Header>
                     <List>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+31.10%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>4.61%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>All</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Low Risk & Flexible</Text>
+                            <Text note>ABCD Investment</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+26.66%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>5.30%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Short Term Fund</Text>
+                            <Text note>QWER Fund</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+24.43%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>13.32%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Unit Trusts</Text>
+                            <Text note>Standard Chartered</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+24.22%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>5.20%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Bond</Text>
+                            <Text note>WXYZ Finance</Text>
                             </Body>
                         </ListItem>
                     </List>
@@ -108,24 +108,24 @@ export default class PF_Today extends Component {
                     </Header>
                     <List>
                         <ListItem>
-                            <Left><Text style = {{color: 'green', fontSize: 30}}>21333.00</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>+0.06%</Text></Left>
                             <Body>
                             <Text style = {{color: 'black'}}>Dow Jones mini</Text>
-                            <Text note>+13.00&nbsp;&nbsp;+0.06%</Text>
+                            <Text note>21333.00&nbsp;&nbsp;&nbsp;&nbsp;+13.00</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>2431.00</Text></Left>
+                            <Left><Text style = {{color: 'red', fontSize: 30}}>-0.04%</Text></Left>
                             <Body>
                             <Text style = {{color: 'black'}}>S&P 500 mini</Text>
-                            <Text note>-1.00&nbsp;&nbsp;-0.04%</Text>
+                            <Text note>2431.00&nbsp;&nbsp;&nbsp;&nbsp;-1.00</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'green', fontSize: 30}}>7394.50</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>+0.44%</Text></Left>
                             <Body>
                             <Text style = {{color: 'black'}}>FTSE100Future</Text>
-                            <Text note>+32.50&nbsp;&nbsp;+0.44%</Text>
+                            <Text note>7394.50&nbsp;&nbsp;&nbsp;&nbsp;+32.50</Text>
                             </Body>
                         </ListItem>
                     </List>

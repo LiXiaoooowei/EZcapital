@@ -114,31 +114,27 @@ export default class LowriskInvestment extends Component {
                     <ListItem itemHeader><Left><Text style = {{color: 'black', fontSize: 30}}>Hot</Text></Left></ListItem>
                     <List>
                         <ListItem>
-                            <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
                             <Body>
-                            <Text style = {{color: 'black'}}>All</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Insurance Industry</Text>
+                            <Text note>Last year <Text style = {{color: 'green'}}> +10.67%</Text></Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain',marginRight: 10}} />
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>IT Industry</Text>
+                            <Text note>Last year <Text style = {{color: 'green'}}> +1.59%</Text></Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Nonferrous Metal</Text>
+                            <Text note>Last year <Text style = {{color: 'red'}}> -7.59%</Text></Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Popular Funds</Text>
+                            <Text note>Show More Details</Text>
                             </Body>
                         </ListItem>
                     </List>
@@ -150,31 +146,31 @@ export default class LowriskInvestment extends Component {
                     </ListItem>
                     <List>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+31.10%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>+25.10%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>All</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Shangri-La HKD</Text>
+                            <Text note>Buy Now</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+26.66%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>+20.66%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Uni-Asia Grp</Text>
+                            <Text note>Buy Now</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+24.43%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>+16.43%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>SPH</Text>
+                            <Text note>Buy Now</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+24.22%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>+14.22%</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>A-Smart</Text>
+                            <Text note>Buy Now</Text>
                             </Body>
                         </ListItem>
                     </List>
@@ -187,26 +183,26 @@ export default class LowriskInvestment extends Component {
                     <List>
                         <ListItem>
                             <Body>
-                            <Text style = {{color: 'black'}}>All</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>COE premiums fall across the board</Text>
+                            <Text note>CERTIFICATE of entitlement (COE) premiums ended lower across the board amid a weak vehicle market.</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>3-month SOR tumbles back to Nov levels even as US$ rallies</Text>
+                            <Text note>THE three-month swap offer rate (SOR) has tumbled further amid a rally in the US dollar (USD), as the market grapples with what some see as possibly aggressive moves by the US central bank to shrink...</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Australia dollar at 1-week low, NZ dollar falls on dairy auction </Text>
+                            <Text note>The Australian dollar fell for a third straight session to a one-week trough on Wednesday as oil prices tumbled, while its New Zealand counterpart weakened after a disappointing dairy...</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Foreigners make US$27b blunder in missing Japan stock rally</Text>
+                            <Text note>As the Nikkei 225 Stock Average rises toward its highest level in more than two decades, one group of investors has surprisingly missed out.</Text>
                             </Body>
                         </ListItem>
                     </List>
