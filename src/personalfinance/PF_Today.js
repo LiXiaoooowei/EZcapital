@@ -66,31 +66,31 @@ export default class PF_Today extends Component {
                     </Header>
                     <List>
                         <ListItem>
-                            <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
+                            <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain', marginRight: 10}}/>
                             <Body>
-                            <Text style = {{color: 'black'}}>All</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>0.50% p.a.</Text>
+                            <Text note>Period: 12 month</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
                             <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain',marginRight: 10}} />
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>0.25% p.a.</Text>
+                            <Text note>Period: 12 month</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
+                            <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>0.95% p.a.</Text>
+                            <Text note>Period: 48 month</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
                             <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain', marginRight: 10}} />
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>0.35% p.a.</Text>
+                            <Text note>Period: 12 month</Text>
                             </Body>
                         </ListItem>
                     </List>
@@ -108,31 +108,24 @@ export default class PF_Today extends Component {
                     </Header>
                     <List>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+31.10%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>21333.00</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>All</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>Dow Jones mini</Text>
+                            <Text note>+13.00&nbsp;&nbsp;+0.06%</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+26.66%</Text></Left>
+                            <Left><Text style = {{color: 'red', fontSize: 30}}>2431.00</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>S&P 500 mini</Text>
+                            <Text note>-1.00&nbsp;&nbsp;-0.04%</Text>
                             </Body>
                         </ListItem>
                         <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+24.43%</Text></Left>
+                            <Left><Text style = {{color: 'green', fontSize: 30}}>7394.50</Text></Left>
                             <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
-                            </Body>
-                        </ListItem>
-                        <ListItem>
-                            <Left><Text style = {{color: 'red', fontSize: 30}}>+24.22%</Text></Left>
-                            <Body>
-                            <Text style = {{color: 'black'}}>Sankhadeep</Text>
-                            <Text note>Its time to build a difference . .</Text>
+                            <Text style = {{color: 'black'}}>FTSE100Future</Text>
+                            <Text note>+32.50&nbsp;&nbsp;+0.44%</Text>
                             </Body>
                         </ListItem>
                     </List>

@@ -36,101 +36,73 @@ export default class Promotion extends Component {
                         </Header>
                         <List>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
+                                <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}}/>
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>2017 Shop, Shake, Win Promotion</Text>
+                                <Text note>Stand to win a prize worth up to $150 each time you play the Shop, Shake</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_uber.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
-                                <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
-                                <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Free First Uber Ride</Text>
+                                <Text note>Free first uber Ride of up to $15</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Sign-Up Promotion</Text>
+                                <Text note>Up to $150 in Uber credits</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_starbucks.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
-                                <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}}/>
-                                <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
-                                <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_citi.png')} style = {{resizeMode: 'contain'}} />
-                                <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
-                                </Body>
-                            </ListItem>
-                            <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
-                                <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>1-For-1 Promotion</Text>
+                                <Text note>1-For-1 Promotion from 1 pm to 7 pm today</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_sc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>Hotels.com Offer</Text>
+                                <Text note>Up to 12%  off at Hotels.com with your credit cards</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
-                                <Thumbnail square size={80} source={require('../../assets/icn_uob.png')} style = {{resizeMode: 'contain'}} />
+                                <Thumbnail square size={80} source={require('../../assets/icn_taobao.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>SALE! Up to 50% Off</Text>
+                                <Text note>Buy women fashion with up to 50% off</Text>
+                                </Body>
+                            </ListItem>
+                            <ListItem>
+                                <Thumbnail square size={80} source={require('../../assets/icn_ocbc.png')} style = {{resizeMode: 'contain'}} />
+                                <Body>
+                                <Text>Online Exclusive Promotion</Text>
+                                <Text note>Be rewarded with cashback and more with OCBC Credit Cards bundle deal!</Text>
+                                </Body>
+                            </ListItem>
+                            <ListItem>
+                                <Thumbnail square size={80} source={require('../../assets/icn_airbnb.png')} style = {{resizeMode: 'contain'}} />
+                                <Body>
+                                <Text>Promotion Code</Text>
+                                <Text note>$10 off with promotion code #EZCAPITAL</Text>
+                                </Body>
+                            </ListItem>
+                            <ListItem>
+                                <Thumbnail square size={80} source={require('../../assets/icn_dbs.png')} style = {{resizeMode: 'contain'}} />
+                                <Body>
+                                <Text>Golden Village</Text>
+                                <Text note>Exclusive discounts on movie tickets and popcorn combo sets</Text>
                                 </Body>
                             </ListItem>
                             <ListItem>
                                 <Thumbnail square size={80} source={require('../../assets/icn_hsbc.png')} style = {{resizeMode: 'contain'}} />
                                 <Body>
-                                <Text>Sankhadeep</Text>
-                                <Text note>Its time to build a difference . .</Text>
+                                <Text>General</Text>
+                                <Text note>Enjoy up to 3.5% Cash Back on all purchases</Text>
                                 </Body>
                             </ListItem>
                         </List>
